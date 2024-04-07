@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Court Kingdom</title>
+    <link rel="icon" type="image/x-icon" href="ball.jpg">
+    <style>
+        body {
+            background-color: #FFEDD8;
+            font-family: Bahnschrift;
+        }
+        h1 {
+            margin-bottom:1vw;
+        }
+        p {
+            margin: 0vw;
+        }
+
+        ul {
+            margin: 0vw;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 33% 2% 48% 17%;
+            border-style: solid;
+            border-color: #141414;
+            border-width: 0.6vw;
+            border-radius: 1.15vw;
+            margin-top: 2vw;
+            margin-bottom: 2vw;
+            color: white;
+        }
+
+        .navbar {
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            margin-top: 2vw;
+            margin-bottom: 2vw;
+            color: white;
+        }
+
+        .button {
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            font-family: Bahnschrift;
+            margin: .5vw .5vw;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .button1 {
+            background-color: #FFEDD8;
+            color: black;
+            border-radius: 0.75vw;
+        }
+
+            .button1:hover {
+                background-color: #141414;
+                color: #FFEDD8;
+            }
+
+        .button2 {
+            background-color: #141414;
+            color: #FFEDD8;
+            border-radius: 0.5vw;
+        }
+
+            .button2:hover {
+                background-color: #FFEDD8;
+                color: #141414;
+            }
+
+        .description {
+            margin: 3.5vw;
+        }
+
+        .top {
+            border-style: solid;
+            border-color: #141414;
+            border-width: 0.6vw;
+            border-radius: 1.15vw;
+        }
+        .main {
+            margin-top:4vw;
+            margin-bottom:12vw;
+            background-color: #141414;
+            color: #FFEDD8;
+            border-style: solid;
+            border-color: #141414;
+            border-width: 0.6vw;
+            border-radius: 1.15vw;
+        }
+        .contribute {
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            margin-top: 2vw;
+            margin-bottom: 2vw;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <center>
+            <p style="font-family:Broadway; margin-left:1vw; font-size:7vw">Court Kingdom</p>
+
+            <p style="font-size:3vw; margin-bottom:1vw; font-family:Bahnschrift; margin-left:1vw">From new to the sport - To the king of the court</p>
+        </center>
+
+        <div class="navbar">
+            <button onclick="window.location.href='index.html'" style="font-size:3vw" class="button button1" width="100%">Home</button>
+            <button onclick="window.location.href='practice.html'" style="font-size:3vw" class="button button2" width="100%">Practice</button>
+            <a href="https://www.youtube.com/channel/UCjyQslDvOR4qitXWVQ9phnQ" target="_blank"><button style="font-size:3vw; width:97%" class="button button2">YouTube</button></a>
+            <button onclick="window.location.href='contact.html'" style="font-size:3vw" class="button button2" width="100%">Contact</button>
+        </div>
+    </div>
+
+
+
+
+    <div class="main">
+        <div style="margin:2vw;">
+            <p style="font-size:6vw; margin-bottom:3vw">We love basketball!</p>
+            <p style="font-size:3.5vw">And we believe that sport resources should be available to everyone, and not just those who will pay for it.</p>
+            <p style="font-size:3.5vw">That is the reason why we started Court Kingdom, where basketball resources are free for anyone who wants to improve their game.</p>
+        </div>
+    </div>
+
+    <div class="main">
+        <p style="font-size:5vw; margin-bottom:3vw">Social Media</p>
+        <p style="font-size:3vw; margin-bottom:3vw">
+            We upload content about new updates of our website, like new exercises or new
+            courses, and you can be the first to find out.
+            <br />
+            We also share stories and clips from our users, so if you want to be part of our
+            community and get your clip or story shared, go to
+            <button onclick="window.location.href='contact.html'" style="font-size:3vw" class="button button2" width="100%">Contact</button>
+            <br />
+            <a href="https://www.youtube.com/channel/UCjyQslDvOR4qitXWVQ9phnQ" target="_blank"><button style="font-size:3vw; width:99%" class="button button1">Check out our YouTube channel</button></a>
+        </p>
+    </div>
+
+    <div class="main">
+        <div style="margin:2vw;">
+            <p style="font-size:5vw; margin-bottom:3vw">About us</p>
+            <p style="font-size:3vw">
+                I was on the lookout for a website that helps me improve my game. However,
+                these websites and apps require you to pay money to start training, so I
+                made such a website myself.
+                <br />
+                You are probably also very passionate about basketball,
+                so why not give something back to the community?
+                <br />
+                Here are some ways you can support this project:
+                <div class="contribute">
+                    <button onclick="window.location.href='contact.html'" style="font-size:3vw" class="button button1">Upload an exercise</button>
+                    <a href="https://www.youtube.com/channel/UCjyQslDvOR4qitXWVQ9phnQ" target="_blank"><button style="font-size:3vw" class="button button1">Check out our YouTube channel</button></a>
+                    <button onclick="window.location.href='practice.html'" style="font-size:3vw" class="button button1">Use our platform</button>
+                </div>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+
+
